@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>show user information</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'python_exam/css/index.css' %}">
+  </head>
+  <body>
+   <div id="wrapper">
+     <div class="content">
+       <ul>
+       <a href="{% url 'Blog:index' %}">Dashboard</a>
+       <a href="{% url 'logreg:logout' %}">Logout</a>
+       </ul>
+       {% if blog %}
+         <p>Post by:{{blog.blog}}</p>
+         <p>Count:</p>
+         <p>{{blog.comment}}</p><hr>
+       {% endif %}
+     </div><!--close content-->
+   </div>
+  </body>
+</html>

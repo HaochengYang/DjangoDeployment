@@ -1,0 +1,28 @@
+.content{
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.content li{
+    list-style: none;
+}
+
+#logout a{
+   float: right;
+}
+
+#list{
+  display: inline-block;
+  vertical-align: top;
+  height: 30%;
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#list li{
+  list-style: none;
+}

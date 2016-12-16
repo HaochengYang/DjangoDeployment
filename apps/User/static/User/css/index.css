@@ -1,0 +1,28 @@
+.User_reg{
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.button{
+  margin-left: 200px;
+}
+
+#reglog{
+  background-color: lightblue;
+  width: 565px;
+  margin: 0 auto;
+}
+#border_right{
+  border-right: 1px solid black;
+}
+
+#error-box{
+  width: 280px;
+  height: 140px;
+}
+#error-box textarea{
+  color: red;
+}
